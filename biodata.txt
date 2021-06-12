@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<!--
+.styling{
+background-color:white;
+color:darkslategray;
+font: bold 18px MS Sans Serif;
+padding: 10px;
+}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" type="text/css" href="biodata.css" />
+<title>About Me</title>
+</head>
+<body bgcolor="darkslategray">
+<br>
+<img src="image/banner.png" width="100%" align="center" border="2">
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="biodata.html">About Me</a>
+  <a href="hobby.html">Hobby</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Me</a>
+</div>
+<br>
+<div style="background-image: url('image/background1.png');">
+<br>
+<h2 align="center"><a href="aboutme.html" target="_blank">ABOUT ME!</a></h2>
+<br>
+<table border="2" align="center" width=30%>
+<tr align="center">
+<th bgcolor="darkolivegreen"><img src="image/biodata.jpg" width="367" height="600"></a></th>
+<th bgcolor="darkolivegreen"><a width="500" height="600" font face="arial" font size="20">Hi, my name is Qistina Izni binti Mohd Faudzi. 
+          I was born on 3 January 2000 at Hospital Bersalin, Kuala Lumpur. Now, I am 21 Years Old.
+          After 5 months of my born day, my mother bought me and my brothers to Kulim, Kedah. 
+          At that time my mother's workplace got changed from hospital in Kuala Lumpur to Hospital Kulim at Kedah, 
+          while my father still work at same place which is National Museum of Malaysia, Kuala Lumpur.
+          On November, 2000, my father got to change his workplace from National Museum of Malaysia, Kuala Lumpur to Bujang Valley Archaeological Museum (Muzium Arkeologi Lembah Bujang), Sungai Petani, Kedah. 
+          I am the youngest and also the only daughter in my family. I got 2 oldest brother above me. Both of them has finished their school and now working.
+          In my free time, I love to read. It does not matter either reading books, newspaper or story from website. The genre of the book that I love to read are mystery, thriller, horror fiction and historical fiction.
+          Other than that, I also like to listen to music and play games either on smartphone or pc.</a></th>
+</tr>
+</table>
+<br>
+<script type="text/javascript" src="https://freehitcounters.org/count/7zts"></script>
+<br>
+<span id="digitalclock" class="styling"></span>
+
+<script>
+<!--
+var alternate=0
+
+function show(){
+var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var dn="AM"
+
+if (hours==12) dn="PM" 
+if (hours>12){
+dn="PM"
+hours=hours-12
+}
+if (hours==0) hours=12
+if (hours.toString().length==1)
+hours="0"+hours
+if (minutes<=9)
+minutes="0"+minutes
+
+if (alternate==0)
+clockobj.innerHTML=hours+"<font color='maroon'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+else
+clockobj.innerHTML=hours+"<font color='black'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+alternate=(alternate==0)? 1 : 0
+setTimeout("show()",1000)
+}
+window.onload=show
+
+//-->
+</script>
+
+<div class="footer">
+  <p>THIS WEBSITE DESIGNED FOR IMS456</p>
+</div>
+</body>
+</html>

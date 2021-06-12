@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<!--
+.styling{
+background-color:white;
+color:darkslategray;
+font: bold 18px MS Sans Serif;
+padding: 10px;
+}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" type="text/css" href="contact.css" />
+<title>Hobby</title>
+</head>
+<body bgcolor="darkslategray">
+<br>
+<img src="image/banner.png" width="100%" align="center" border="2">
+<a name="top"></a>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">About Me</a>
+  <a class="active" href="hobby.html">Hobby</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Me</a>
+</div>
+<br>
+<div style="background-image: url('image/background1.png');">
+<br>
+<h2 align="center">MY HOBBY</h2>
+<table border="2" align="center" width=50%>
+<tr align="center">
+<th><img src="image/hobby.jpg"></a></th>
+</tr>
+<tr align="center">
+<td bgcolor="palegreen">In my free time, I like to play video games on my smartphone. 
+There are many type of video games that I have played but one of the most game that I 
+played a lot is PlayerUnknown's Battlegrounds (PUBG) Mobile. This is my favourite video
+game that I play on my smartphone. It is a Battle Royale mobile game that was released 
+globally in March 2018. I start play PUBG Mobile since Season 5 until now which is Season 19.</td>
+</tr>
+<tr align="center">
+<td bgcolor="palegreen">Other than that, I also love to listen to music. When I play my video games or
+do my assignments, I will turn on my playlist that I have created in my smartphone's music application.
+I also have created my playlist on my YouTube channel. The playlist that I have created are arranged according
+to my mood which include sad playlist, up-beat playlist or chill vibes playlist. Sad playlist will be played when I feel
+down or have a mixed feelings. Up-beat playlist will be played when I start to play my video games or doing some works.
+Lastly for chill vibes playlist, I will play it when I want to relax my day. This is the list of up-beat music that I have add
+into my up-beat playlist. </td>
+</tr>
+<br>
+<table border="2" align="center" width=50%>
+<tr align="center">
+<th bgcolor="darkolivegreen">Artist</th>
+<th bgcolor="darkolivegreen">Song Title</th>
+</tr>
+<tr align="center">
+<td bgcolor="linen">Lost Sky (feat. Jex)</td>
+<td bgcolor="linen"><a href="music/started.mp3" autoplay="false">Where We Started [NCS Release]</a></td>
+</tr>
+<tr align="center">
+<td bgcolor="linen">Ava Max</td>
+<td bgcolor="linen"><a href="music/queens.mp3" autoplay="false">Kings & Queens</a></td>
+</tr>
+<tr align="center">
+<td bgcolor="linen">Siro</td>
+<td bgcolor="linen"><a href="music/xinspiratio.mp3" autoplay="false">Xinspiratio</a></td>
+</tr>
+<tr align="center">
+<td bgcolor="linen">Alan Walker, K-391, Tungevaag, Mangoo</td>
+<td bgcolor="linen"><a href="music/play.mp3" autoplay="false">PLAY</a></td>
+</tr>
+<tr align="center">
+<td bgcolor="linen">Alan x Walkers</td>
+<td bgcolor="linen"><a href="music/unity.mp3" autoplay="false">Unity</a></td>
+</tr>
+<tr align="center">
+<td bgcolor="linen">League of Legends (ft. Against The Current)</td>
+<td bgcolor="linen"><a href="music/legends.mp3" autoplay="false">Legends Never Die</a></td>
+</tr>
+<tr align="center">
+<td bgcolor="linen">Awakend & Herrin (Feat. Luma)</td>
+<td bgcolor="linen"><a href="music/dream.mp3" autoplay="false">Feels Like a Dream</a></td>
+</tr>
+<tr align="center">
+<td bgcolor="linen">Synymata (Feat. Q'Aila)</td>
+<td bgcolor="linen"><a href="music/overcome.mp3" autoplay="false">Overcome</a></td>
+</tr>
+</table>
+<br>
+<a href="#top"><img src="image/top.png" width="93px" height="93px"></a>
+<br>
+<script type="text/javascript" src="https://freehitcounters.org/count/7zts"></script>
+<br>
+<span id="digitalclock" class="styling"></span>
+
+<script>
+<!--
+var alternate=0
+
+function show(){
+var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var dn="AM"
+
+if (hours==12) dn="PM" 
+if (hours>12){
+dn="PM"
+hours=hours-12
+}
+if (hours==0) hours=12
+if (hours.toString().length==1)
+hours="0"+hours
+if (minutes<=9)
+minutes="0"+minutes
+
+if (alternate==0)
+clockobj.innerHTML=hours+"<font color='maroon'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+else
+clockobj.innerHTML=hours+"<font color='white'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+alternate=(alternate==0)? 1 : 0
+setTimeout("show()",1000)
+}
+window.onload=show
+
+//-->
+</script> 
+
+<div class="footer">
+  <p>THIS WEBSITE DESIGNED FOR IMS456</p>
+</div>
+</body>
+</html>

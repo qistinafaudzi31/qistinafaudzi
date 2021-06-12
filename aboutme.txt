@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>About Me</title>
+</head>
+<body>
+<h2>ABOUT ME</h2>
+<ul type="disc">
+<li>Title: My Personal Website</li>
+<li>Name: Qistina Izni Binti Mohd Faudzi</li>
+<li>Student ID: 2021118417</li>
+<li>Group: KIM244 3A</li>
+<li>Course Code: IMS456</li>
+<li>Course Name: Basic Web Design & Content Management</li>
+<li>Faculty: Faculty of Information Management</li>
+<li>Submission Date: 13 June 2021</li>
+<li>My Image:<img src="image/home.jpg" border="2" vspace="1" hspace="470" align="center"></li>
+</ul>
+</body>
+</html>
